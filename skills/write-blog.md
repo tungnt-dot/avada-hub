@@ -17,8 +17,9 @@ Then suggest a **blog type** based on the keyword and topic (How to, What is, Li
 ### Step 2: Write the Article
 - Select the matching template from the Blog Templates section below and follow its structure
 - Follow ALL rules from the Writing Guidelines section below
-- Follow tone and voice from `.claude/avada-commerce/brand-voice.md`
-- Reference `.claude/avada-commerce/` files for accurate product names, target audience, and competitive context
+- Follow tone and voice from `avada-commerce/brand-voice.md`
+- Follow the AI Writing Style Guide at `avada-commerce/AI writing style/AI Writing Style Guide.md` for voice, quirks, and structure patterns
+- Reference `avada-commerce/` files for accurate product names, target audience, and competitive context
 - Match writing patterns from the Sample Blog Patterns section below
 - Mention Avada products naturally where relevant (don't force it)
 
@@ -41,10 +42,19 @@ After writing, verify:
 - [ ] Keyword in title, headings, and first 100 words
 - [ ] Structure matches the selected blog template
 - [ ] Introduction follows the hook → problem/gap → preview pattern
-- [ ] No banned vocabulary
+- [ ] Key verdict or answer delivered early (not buried at the end)
+- [ ] No banned vocabulary (see audit-content.md full list)
 - [ ] No em-dashes or hyphens
+- [ ] No cliché openings ("In today's fast-paced world...", "It's no secret...", etc.)
+- [ ] No throat-clearing phrases ("In conclusion...", "It's important to note...")
+- [ ] Numbers under ten spelled out ("five", not "5")
+- [ ] "okay" not "ok" — "email" not "e-mail"
+- [ ] Italics used for subtle emphasis, not bold overuse
+- [ ] Specific tools/platforms named (not "various platforms")
+- [ ] Claims backed by specific data or sources (not vague generalities)
+- [ ] Major sections end with a short one-sentence impact paragraph
 - [ ] Reading level around grade 7-8
-- [ ] Paragraphs max 3-4 sentences
+- [ ] Paragraphs max 3-4 sentences, front-loaded with main idea
 - [ ] Content scannable (lists, bolds, clear headings)
 - [ ] Sources cited where needed
 - [ ] Statistics from 2024 onward
