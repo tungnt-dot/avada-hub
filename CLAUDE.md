@@ -18,3 +18,4 @@
 - `skills/improve-blog.md` - Improvement skill (`/improve-blog`): surgical in-place fixes for Light Edit and Major Update articles — fixes SEO, style violations, pricing, and adds missing sections from competitor gap analysis
 - `skills/rewrite-blog.md` - Rewrite skill (`/rewrite-blog`): full rewrite from scratch for Full Rewrite articles — uses audit findings as constraints, competitor gaps as brief, and write-blog.md as writing framework
 - `skills/ga4-insights.md` - GA4 insights skill (`/ga4-insights`): pulls traffic, user behavior, scroll depth, click events, channel breakdown, and monthly trend for a given URL — with optional period comparison
+- `skills/prioritize-content.md` - Content priority skill (`/prioritize-content`): runs GA4 across all blog pages, scores each by traffic decline + bounce + engagement, outputs a priority queue of articles to audit next
