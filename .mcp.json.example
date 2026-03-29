@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "wordpress": {
+      "command": "/bin/bash",
+      "args": [".claude/wp-mcp.sh"],
+      "env": {
+        "WORDPRESS_SITE_URL": "https://avada.io",
+        "WORDPRESS_USERNAME": "YOUR_USERNAME",
+        "WORDPRESS_APP_PASSWORD": "YOUR_APP_PASSWORD"
+      }
+    }
+  }
+}

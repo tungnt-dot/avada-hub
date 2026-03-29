@@ -1,3 +1,4 @@
 .DS_Store
 avada-commerce/GA4 json/*.json
 avada-commerce/dataforseo-credentials.json
+.mcp.json
